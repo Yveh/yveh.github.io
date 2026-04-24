@@ -1,0 +1,28 @@
+.date {
+  color: #888;
+  font-style: italic;
+  font-size: 0.92em;
+}
+ol.pub-list {
+  padding-left: 1.4em;
+}
+ol.pub-list li {
+  margin-bottom: 1em;
+  line-height: 1.55;
+}
+ol.pub-list li strong {
+  font-weight: 600;
+}
+ol.pub-list li u {
+  text-decoration: underline;
+}
+.page h2 {
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+.page h2:first-child {
+  margin-top: 0.4em;
+}
+.page ul li {
+  margin-bottom: 0.4em;
+}
