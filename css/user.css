@@ -26,3 +26,24 @@ ol.pub-list li u {
 .page ul li {
   margin-bottom: 0.4em;
 }
+ul.edu-list {
+  list-style: none;
+  padding-left: 0;
+}
+ul.edu-list li {
+  margin-bottom: 0.9em;
+}
+ul.edu-list .edu-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+ul.edu-list .edu-head .date {
+  flex-shrink: 0;
+}
+ul.edu-list .edu-sub {
+  margin-top: 0.15em;
+  color: #444;
+}
