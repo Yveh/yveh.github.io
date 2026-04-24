@@ -27,3 +27,21 @@ ol.pub-list
 // Cleaner list spacing
 .page ul li
   margin-bottom 0.4em
+
+// Education list — institution + date on one line, degree on the next
+ul.edu-list
+  list-style none
+  padding-left 0
+  li
+    margin-bottom 0.9em
+  .edu-head
+    display flex
+    justify-content space-between
+    align-items baseline
+    flex-wrap wrap
+    gap 0.5em
+    .date
+      flex-shrink 0
+  .edu-sub
+    margin-top 0.15em
+    color #444

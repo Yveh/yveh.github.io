@@ -28,10 +28,8 @@ social_links:
 
 # Extra labelled social links
 e_social:
-  enable: true
+  enable: false
 e_social_links:
-  Google Scholar: https://scholar.google.com/ || fas fa-graduation-cap
-  DBLP: https://dblp.org/ || fas fa-book
 
 # CV download
 cv_dl:

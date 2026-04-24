@@ -14,7 +14,13 @@ Before Rutgers, I received my B.S. in Computer Science from **Shanghai Jiao Tong
 
 ## Education
 
-- **Rutgers University**, New Jersey, USA &nbsp; <span class="date">Sep. 2023 – Present</span><br>
-  Ph.D. in Computer Science. Advisor: Prof. Dong Deng.
-- **Shanghai Jiao Tong University**, Shanghai, China &nbsp; <span class="date">Sep. 2018 – Jul. 2023</span><br>
-  B.S. in Computer Science. Member of ACM Honors Class. GPA: 3.54 / 4.3.
+<ul class="edu-list">
+  <li>
+    <div class="edu-head"><strong>Rutgers University</strong>, New Jersey, USA<span class="date">Sep. 2023 – Present</span></div>
+    <div class="edu-sub">Ph.D. in Computer Science. Advisor: Prof. Dong Deng.</div>
+  </li>
+  <li>
+    <div class="edu-head"><strong>Shanghai Jiao Tong University</strong>, Shanghai, China<span class="date">Sep. 2018 – Jul. 2023</span></div>
+    <div class="edu-sub">B.S. in Computer Science. Member of ACM Honors Class.</div>
+  </li>
+</ul>
