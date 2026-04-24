@@ -1,0 +1,54 @@
+favicon: /img/favicon.png
+# Profile picture (uses initials placeholder if avatar.jpg not provided)
+avatar: /img/avatar.jpg
+# Author override (site _config.yml takes precedence if author is set there)
+author: 'Yuheng Zhang'
+author_bio: 'Ph.D. Student in Computer Science, Rutgers University. Advised by Prof. Dong Deng.'
+
+since: 2023
+
+# Top navigation
+menu:
+  About: /
+  Publications: /#publications
+  Experience: /#experience
+  Awards: /#awards
+  Teaching: /#teaching
+
+# Fallback image when avatar fails to load
+loading_bg:
+  flink: /img/profile.png
+
+# Social links — icons via Font Awesome 5 class names
+social:
+  enable: true
+social_links:
+  fab fa-github: https://github.com/yveh
+  fas fa-envelope: mailto:yz1391@scarletmail.rutgers.edu
+
+# Extra labelled social links
+e_social:
+  enable: true
+e_social_links:
+  Google Scholar: https://scholar.google.com/ || fas fa-graduation-cap
+  DBLP: https://dblp.org/ || fas fa-book
+
+# CV download
+cv_dl:
+  enable: true
+  dir: /attaches/CV.pdf
+  description: Download my CV (PDF).
+
+# Box-shadow for content card
+box_shadow:
+  enable: false
+
+# CDN assets
+CDN_USE:
+  css:
+    - /css/index.css
+    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css
+  js:
+    - https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
+    - /js/main.js
